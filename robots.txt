@@ -1,0 +1,6 @@
+# robots.txt for http://evanbinder.github.io/projects/fatbabble/
+
+User-Agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
