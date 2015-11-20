@@ -348,6 +348,10 @@ textarea {
 	/*background-color: #E2FF66;*/
 }
 
+.light-gray-background {
+	background-color: #373e4c;
+}
+
 .light-blue-background {
 	/*background-color: #18EAA9;*/
 	background-color: #17EAA9;
@@ -631,6 +635,50 @@ html, body {
 	-moz-box-shadow:inset 0px 0px 7px rgba(0, 0, 0, 0.7);
 }
 
+.facts-wrapper {
+	padding-top: 35%;
+	padding-bottom: 35%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.facts-hover-wrapper {
+	position: absolute;
+	top: 0px;
+   	left: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 15px 30px;
+    -webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
+
+.facts-hover-wrapper:hover > .facts-hover-caption {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
+
+.facts-hover-caption {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-top: 30%;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgba(255, 255, 255, 0.97);
+	visibility: hidden;
+	opacity: 0;
+    -webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
 /* END IMAGE STYLING */
 
 /* BEGIN BOOTSTRAP DOM OVERRIDES */
@@ -1316,6 +1364,10 @@ computationally expensive flexbox*/
 
 .background-header-font-size {
 	font-size: 8.0rem;
+}
+
+.facts-caption-font-size {
+	font-size: 1rem;
 }
 
 .tracking-5px {
