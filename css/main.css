@@ -835,6 +835,11 @@ html, body {
 	padding-right: 5%;
 }
 
+.special-padding {
+	padding-right: 6%;
+	padding-left: 6%;
+	padding-top: 37%;
+}
 .img-vertical-padding {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -1035,6 +1040,161 @@ computationally expensive flexbox*/
 
 /* END CUSTOM CONTAINERS */
 
+/*SLIDESHOW*/
+
+.img-slideshow-wrapper {
+	position: absolute;
+	top: 0;
+   	left: 0px;
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img-slideshow-wrapper img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+	animation-name: FadeInFadeOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	
+	-o-animation-name: imgSlideshowFadeInFadeOut;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 5s;
+	-o-animation-direction: alternate;
+	
+	-webkit-animation-name: imgSlideshowFadeInFadeOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes imgSlideshowFadeInFadeOut {
+	0% {
+		opacity:1;
+	}
+	45% {
+		opacity:1;
+	}
+	55% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+@-o-keyframes imgSlideshowFadeInFadeOut {
+	0% {
+		opacity:1;
+	}
+	45% {
+		opacity:1;
+	}
+	55% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+@keyframes FadeInFadeOut {
+	0% {
+		opacity:1;
+	}
+	45% {
+		opacity:1;
+	}
+	55% {
+		opacity:0;
+	}
+	100% {
+		opacity:0;
+	}
+}
+
+
+.row-hovered-wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+   	left: 0px;
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row-hovered-caption {    
+	height: 100%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20%;
+	background-color: #373e4c;
+	visibility: hidden;
+	opacity: 0;
+    -webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
+
+.row-hovered-wrapper:hover > .row-hovered-caption {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
+
+.text-unhovered-wrapper {
+	width: 100%;
+	min-height: 450px;
+	
+}
+
+.text-hovered-wrapper {
+	position: absolute;
+    top: 0;
+   	left: 0;
+    height: 100%;
+}
+
+.text-hovered {
+	min-height: 84%;
+	min-width: 84%;
+	margin: 8%;
+	padding-top: 6%;
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-bottom: 0%;
+	background-color: rgba(255, 255, 255, 0.97);
+	visibility: hidden;
+	opacity: 0;
+    -webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
+
+.text-hovered-wrapper:hover > .text-hovered{
+	visibility: visible;
+	opacity: 1;
+    -webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
+
 /* BEGIN TYPE STYLING */
 
 @font-face { /* FONT SYNTAX */
@@ -1132,6 +1292,10 @@ computationally expensive flexbox*/
 
 .learn-subhead-font-size {
 	font-size: 2.43rem;
+}
+
+.learn-hover-font-size {
+	font-size: 1.7rem;
 }
 
 .button-font-size {
