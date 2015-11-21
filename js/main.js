@@ -137,4 +137,14 @@ $(document).ready(
     });
   });
 
+$(document).ready(function () {
+  $( "#statistics-expand" ).click(function(e) {
+    //console.log("stat button clicked");
+    e.preventDefault();
+    //console.log("Target: " + target)
+    $('html,body').animate({
+      scrollTop: $(window).scrollTop() + $(window).height() - 50
+    }, 1000);
+  });
+});
 //css({'transform':'translate3d('+l+'px, '+t+'px, 0)'
