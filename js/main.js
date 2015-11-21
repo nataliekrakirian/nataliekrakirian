@@ -124,7 +124,7 @@ $(document).ready(
         /*console.log(index + ':' + 'Element position: ' + deltaBottom);*/
         if (deltaBottom <= 0 && (((deltaTop - $('.navbar').height()) + $(this).height()) > 0)) {
             var parallaxElement = $('.parallax-container > .row > .col-xs-12 > .parallax-element');
-            $(parallaxElement).css({'transform': 'translate(0px, '+((deltaBottom* (-1))/4)+'px)'});
+            $(parallaxElement).css({'transform': 'translate(0px, '+(((deltaBottom+50)* (-1))/4)+'px)'});
             //console.log("Element " + index + " is being changed")
             //console.log(((deltaTop - $('.navbar').height()) + $(this).height()));
             //console.log(deltaBottom/10);
