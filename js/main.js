@@ -63,9 +63,10 @@ Feasability of sideways expanding accordion
 $(document).ready(
   function () {
     var $win = $(window);
-    var winH = $win.height()/2;   
+    var winH = $win.height()/2;
+    var winT = $win.height(); 
     function checkScroll(){
-      var navActive = false;
+      /*console.log("Window top: " + winT)*/
       if($win.scrollTop() < winH){
       $(".navbar-header").removeClass("semi-transparent");
       }else if($win.scrollTop() > winH){
@@ -74,7 +75,7 @@ $(document).ready(
     }//closed check scroll
 
     $(".navbar").on('show.bs.collapse', function () {
-      console.log('show.bs.collapse');
+      /*console.log('show.bs.collapse');*/
       $(".navbar").disablescroll();
       if($(window).scrollTop() < winH){
         $(".navbar").addClass("semi-transparent");
@@ -84,7 +85,7 @@ $(document).ready(
       //$('.navbar-default .navbar-nav > li > a').css('color', 'rgba(55, 62, 76, 1)');
     });
     $('.navbar').on('hidden.bs.collapse', function () {
-      console.log('show.bs.collapse');
+      /*console.log('show.bs.collapse');*/
       if($(window).scrollTop() < winH){
         $(".navbar").removeClass("semi-transparent");
         $(".navbar").disablescroll("undo");
@@ -94,8 +95,10 @@ $(document).ready(
       }
       //$('.navbar-default .navbar-nav > li > a').css('color', 'rgba(55, 62, 76, 0)');
     });
-    
-
+    /*console.log($win.scrollTop())
+    $( '.parallax-element' ).each(function(index) {
+      console.log( index + ": " + $(this).offset().top);
+    });*/
     
     if($(".navbar").length > 0){
         $(window).on("scroll load resize", function(){
@@ -104,3 +107,34 @@ $(document).ready(
     }
   }
 );
+
+$(document).ready(
+  function () {
+    /*var windowTop = $(window).scrollTop(); */
+    $(window).scroll(function() { //when window is scrolled
+      var windowTop = $(window).scrollTop();
+      var windowBottom = windowTop + $(window).height();
+      /*console.log('Window top position: ' + windowTop);
+      console.log('Window bottom position: ' + windowBottom);*/
+      $( '.parallax-container' ).each(function(index) {
+        var elementTop = $(this).offset().top; //get the offset top of the element
+        var deltaTop = elementTop - windowTop;
+        var deltaBottom = elementTop - windowBottom;
+        /*console.log('Element position: ' + elementTop);*/
+        /*console.log(index + ':' + 'Element position: ' + deltaBottom);*/
+        if (deltaBottom <= 0 && (((deltaTop - $('.navbar').height()) + $(this).height()) > 0)) {
+            var parallaxElement = $('.parallax-container > .row > .col-xs-12 > .parallax-element');
+            $(parallaxElement).css({'transform': 'translate(0px, '+((deltaBottom* (-1))/4)+'px)'});
+            //console.log("Element " + index + " is being changed")
+            //console.log(((deltaTop - $('.navbar').height()) + $(this).height()));
+            //console.log(deltaBottom/10);
+            //console.log( parallaxElement.offset().top);            
+            //ADD TRANSITION TO PARALLAX-ELEMENT CLASS
+            //console.log(index + ":" + $('.parallax-container > .row > .col-xs-12 > .parallax-element').offset().top);
+          };
+      });
+      
+    });
+  });
+
+//css({'transform':'translate3d('+l+'px, '+t+'px, 0)'

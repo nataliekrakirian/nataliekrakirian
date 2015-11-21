@@ -1243,6 +1243,12 @@ computationally expensive flexbox*/
     transition: 0.35s all ease;
 }
 
+.parallax-element {
+	/*-webkit-transition: 0.01s all ease;
+    -moz-transition: 0.01s all ease;
+    -o-transition: 0.01s all ease;
+    transition: 0.01s all ease;*/
+}
 /* BEGIN TYPE STYLING */
 
 @font-face { /* FONT SYNTAX */
@@ -1363,7 +1369,8 @@ computationally expensive flexbox*/
 }
 
 .background-header-font-size {
-	font-size: 8.0rem;
+	font-size: 4.0rem;
+	line-height: 0px;
 }
 
 .facts-caption-font-size {
