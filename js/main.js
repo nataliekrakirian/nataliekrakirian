@@ -14,13 +14,13 @@ $(document).ready(function(){
 
 $(document).ready(
   function () {
-  $(".navbar-nav li a").click(function(event) {
+  /*$(".navbar-nav li a").click(function(event) {
     if ($(this).hasClass("dropdown-element") || $(this).hasClass("dropdown-toggle")) {
    
     } else {
         $(".navbar-collapse").collapse('hide');
     }
-  });
+  });*/
   $(".fadeInAmate").fadeInAmate({
     initialDelay: 250,
     fadeInSpeed: 900,

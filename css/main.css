@@ -619,6 +619,7 @@ html, body {
     top: 0;
    	left: 0;
     height: 100%;
+    width: 100%;
 }
 .img-responsive-wrapper:hover > .img-caption-wrapper > .img-caption {
 	visibility: visible;
@@ -632,6 +633,11 @@ html, body {
 .img-caption-background {
 	margin-left: 3.5%;
 	margin-top: 1.5%;
+}
+
+.video-caption-background {
+	margin-left: 2.3%;
+	margin-top: -1.5%;
 }
 
 .img-caption-background-font-size {
