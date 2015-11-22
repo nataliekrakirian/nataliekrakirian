@@ -143,7 +143,7 @@ $(document).ready(function () {
     e.preventDefault();
     //console.log("Target: " + target)
     $('html,body').animate({
-      scrollTop: $(window).scrollTop() + $(window).height() - 50
+      scrollTop: $(window).scrollTop() + $(window).height() - ($(window).height()/3)
     }, 1000);
   });
 });
