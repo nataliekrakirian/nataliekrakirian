@@ -688,6 +688,10 @@ html, body {
 	margin-top: 1.5%;
 }
 
+.special-img-caption-background {
+	margin-left: 2.5%;
+	margin-top: 1.0%;
+}
 .video-caption-background {
 	margin-left: 2.3%;
 	margin-top: -1.5%;
@@ -1474,7 +1478,7 @@ computationally expensive flexbox*/
 }
 
 .learn-hover-font-size {
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 }
 
 .button-font-size {
