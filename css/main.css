@@ -321,6 +321,13 @@ textarea {
 	border-style: solid;
 }
 
+.white-border {
+	border-radius: 3px;
+	border-color: #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+}
+
 .green-border {
   border: 2px solid #67814A;
 }
@@ -549,7 +556,55 @@ html, body {
     display: block;
     height: auto;
     margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
+}
+
+.header-scroll {
+	font-size: 2.0rem;
+	color: #373e4c;
+	-webkit-transition: 0.1s color linear;
+    -moz-transition: 0.1s color linear;
+    -o-transition: 0.1s color linear;
+    transition: 0.1s color linear;
+}
+
+.header-scroll:hover {
+	color: #FFFFFF;
+	-webkit-transition: 0.1s color linear;
+    -moz-transition: 0.1s color linear;
+    -o-transition: 0.1s color linear;
+    transition: 0.1s color linear;  
+}
+
+.see-caption-wrapper {
+	position: absolute;
+    top: 0;
+   	left: 0;
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+	padding-right: 15px;
+}
+
+.see-caption {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background-color: rgba(55,62,76, 0.97);
+	visibility: hidden;
+	opacity: 0;
+    -webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+}
+.img-responsive-wrapper:hover > .see-caption-wrapper > .see-caption {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
 }
 
 .img-caption-wrapper {
@@ -557,8 +612,14 @@ html, body {
     top: 0;
    	left: 0;
     height: 100%;
+    /*width: 100%;*/
 }
-
+.img-background-wrapper {
+	position: absolute;
+    top: 0;
+   	left: 0;
+    height: 100%;
+}
 .img-responsive-wrapper:hover > .img-caption-wrapper > .img-caption {
 	visibility: visible;
 	opacity: 1;
@@ -595,12 +656,8 @@ html, body {
     transition: 0.35s all ease;
 }
 
-.img-caption-text {
-
-}
-
-.img-caption-button {
-	
+.share-caption-button {
+	width: 100%;
 }
 .img-caption-font-size {
 	font-size: 1.3rem;
@@ -797,6 +854,11 @@ html, body {
 
 .special-button-margin-top {
 	margin-top: 10%;
+}
+
+.standard-button-horizontal-margin {
+	margin-right: 5%;
+	margin-left: 5%;
 }
 /*END MARGIN STYLING */
 
@@ -1563,6 +1625,24 @@ input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner{
 
 .link:hover {
 	color: #F15A24;
+}
+
+.see-hover-fade {	
+	-webkit-transition: 0.1s background-color linear, 0.1s color linear;
+    -moz-transition: 0.1s background-color linear, 0.1s color linear;
+    -o-transition: 0.1s background-color linear, 0.1s color linear;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.see-hover-fade:hover {	
+	-webkit-transition: 0.1s background-color linear, 0.1s color linear;
+    -moz-transition: 0.1s background-color linear, 0.1s color linear;
+    -o-transition: 0.1s background-color linear, 0.1s color linear;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    background-color: #FFFFFF;
+    color: #373E4C;
 }
 
 .hover-fade {

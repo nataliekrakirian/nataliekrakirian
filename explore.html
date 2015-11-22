@@ -77,15 +77,20 @@
             </div><!--.nav container -->
         </nav><!--/nav-->
         
-        <div id = "explore-header" class = "container-fluid fadeInAmate" data-speed="6" data-type="background">            
+        <div id = "explore-header" class = "container-fluid fadeInAmate" data-speed="6" data-type="background">
             <div class = "row">
                 <div class = "col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h1 class = "white roboto-light header-font-size tracking-5px uppercase center-text two-thirds-page-margin">Expand your horizons.</h1> 
                 </div>            
             </div>
+            <div class = "center-align">
+                <a class = "anchor-scroll" href="#content">
+                    <span class="light-gray header-scroll anchor-scroll glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </a>
+            </div> 
         </div>
 
-        <div class = "container-fluid standard-vertical-padding">
+        <div id = "content" class = "container-fluid standard-vertical-padding">
             <div class = "row">
                 <div class = "col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                     <h3 class = "light-gray roboto-light subhead-font-size tracking-2px center-text no-vertical-margin">Check out some of the websites and articles we've found. We promise they're awesome.</h3>
@@ -96,7 +101,7 @@
                     <div class ="row">
                         <div class = "col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                             <div class = "standard-button-horizontal-padding">
-                                <a class = "anchor-scroll" href="#fatbabble-header">
+                                <a class = "anchor-scroll" href="#article-header">
                                     <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade">
                                         Article list
                                     </div>
@@ -105,7 +110,7 @@
                         </div>
                         <div class = "col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
                             <div class = "standard-button-horizontal-padding">
-                                <a class = " anchor-scroll" href="#videos-header">
+                                <a class = " anchor-scroll" href="#resource-header">
                                     <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade">
                                         Resource list
                                     </div>
@@ -117,12 +122,128 @@
             </div>       
         </div>
 
+        <div id = "article-header" class = "container-fluid background-header-container light-blue-background parallax-container">
+            <div class = "row">
+                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class = "white dosis-bold uppercase center-text background-header-font-size parallax-element">Article list</h2> 
+                </div>            
+            </div>
+        </div>
+        
+        <div id = "resource-header" class = "container-fluid background-header-container light-blue-background parallax-container">
+            <div class = "row">
+                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class = "white dosis-bold uppercase center-text background-header-font-size parallax-element">Resource list</h2> 
+                </div>            
+            </div>
+        </div>
+
+        <div class = "container-fluid standard-vertical-padding" id = "searchable-container">
+            <div class = "col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-4">
+                        <input type="search" id="search" value="" class="form-control" placeholder="Search">
+                    </div>
+                </div>
+                <div class = "row searchable-row">
+                    <div class = "col-lg-3 col-md-3 col-sm-8 col-xs-8 searchable-parent">                       
+                        <div class = "standard-button-horizontal-padding">
+                            <a href="#article-header">
+                                <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade searchable-child">
+                                    Lorem
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-8 col-xs-8 searchable-parent">                       
+                        <div class = "standard-button-horizontal-padding">
+                            <a href="#article-header">
+                                <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade searchable-child">
+                                    Ipsum
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-8 col-xs-8 searchable-parent">                      
+                        <div class = "standard-button-horizontal-padding">
+                            <a href="#article-header">
+                                <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade searchable-child">
+                                    Dolor
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-8 col-xs-8 searchable-parent">                       
+                        <div class = "standard-button-horizontal-padding">
+                            <a href="#article-header">
+                                <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade searchable-child">
+                                    Sit
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-8 col-xs-8 searchable-parent">                       
+                        <div class = "standard-button-horizontal-padding">
+                            <a href="#article-header">
+                                <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade searchable-child">
+                                   Amet
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-8 col-xs-8 searchable-parent">                       
+                        <div class = "standard-button-horizontal-padding">
+                            <a href="#article-header">
+                                <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade searchable-child">
+                                    Loran
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-8 col-xs-8 searchable-parent">                      
+                        <div class = "standard-button-horizontal-padding">
+                            <a href="#article-header">
+                                <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade searchable-child">
+                                    Adipiscing
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "col-lg-3 col-md-3 col-sm-8 col-xs-8 searchable-parent">                       
+                        <div class = "standard-button-horizontal-padding">
+                            <a href="#article-header">
+                                <div class = "center-text dosis-bold uppercase button-font-size tracking-3px black-border transparent-background standard-button-vertical-margin standard-button-vertical-padding hover-fade searchable-child">
+                                    Elit
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
          <!--script declarations-->
         <script type = "text/javascript" src = "js/jquery-2.1.4.min.js"></script>
+        <script type = "text/javascript" src = "js/jquery.searchable.js"></script>
         <script type = "text/javascript" src = "js/bootstrap.min.js"></script>
         <script type = "text/javascript" src = "js/jquery.fadeInAmate.min.js"></script>
         <script type = "text/javascript" src = "js/main.js"></script>
         <script type = "text/javascript" src = "js/ie10-viewport-bug-workaround.js"></script>
+
+        <script>
+            $(function () {                
+                $( '#searchable-container' ).searchable({
+                    searchField: '#search',
+                    selector: '.searchable-parent',
+                    childSelector: '.searchable-child',
+                    show: function( elem ) {
+                        elem.slideDown(100);
+                    },
+                    hide: function( elem ) {
+                        elem.slideUp( 100 );
+                    }
+                })
+            });
+        </script>
         <!--/end script declarations-->
     </body>
 </html>
