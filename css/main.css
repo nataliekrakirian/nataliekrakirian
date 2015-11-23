@@ -689,8 +689,8 @@ html, body {
 }
 
 .special-img-caption-background {
-	margin-left: 2.5%;
-	margin-top: 1.0%;
+	margin-left: 2.0%;
+	margin-top: 0.85%;
 }
 .video-caption-background {
 	margin-left: 2.3%;
@@ -709,11 +709,14 @@ html, body {
 
 .img-caption {
 	min-height: 84%;
-	min-width: 84%;
+	/*min-width: 84%;*/
 	margin: 8%;
-	padding-top: 6%;
+	/*padding-top: 6%;
 	padding-left: 6%;
-	padding-right: 6%;
+	padding-right: 6%;*/
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-bottom: 0%;
 	background-color: rgba(255, 255, 255, 0.97);
 	visibility: hidden;
@@ -1481,6 +1484,9 @@ computationally expensive flexbox*/
 	font-size: 1.3rem;
 }
 
+.special-learn-hover-font-size {
+	font-size: 1.1rem;
+}
 .button-font-size {
 	font-size: 1.0rem;
 	/*line-height: 1.2em;*/
