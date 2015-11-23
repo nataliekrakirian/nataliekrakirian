@@ -10,6 +10,10 @@ $(document).ready(function(){
         scrollTop: $(target).offset().top - 50
       }, 1000);
     });
+     $('.submit-button').on('click', function () {
+      $(".form-hovered-wrapper").addClass("form-hovered-caption-active");
+      $(".form-hovered-caption").addClass("form-hovered-caption-active");
+     });
 });
 
 $(document).ready(
