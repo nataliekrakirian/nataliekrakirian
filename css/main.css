@@ -90,22 +90,30 @@ textarea {
 
 /* Tiny devices (phones, 767px and below) */
 @media screen and (max-width: 767px) {
-
+	.right-text {
+	text-align: center;
+	}
 }
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991px){
-
+	.right-text {
+	text-align: center;
+	}
 }
 
 /* Medium devices (small desktops, 768px and up) */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-
+	.right-text {
+	text-align: right;
+	}
 }
 
 /* Large devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-
+	.right-text {
+	text-align: right;
+	}
 }
 
 /*END BOOTSTRAP DEFAULT MEDIA QUERY SIZES*/
@@ -341,6 +349,23 @@ textarea {
 /* BEGIN BACKGROUND STYLING */
 .transparent-background {
 	background-color: transparent;
+}
+
+.resource-background {
+	-webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+	background-color: rgb(67, 73, 89);
+	min-height: 210px;
+}
+
+.resource-background:hover {
+	-webkit-transition: 0.35s all ease;
+    -moz-transition: 0.35s all ease;
+    -o-transition: 0.35s all ease;
+    transition: 0.35s all ease;
+	background-color: rgb(41, 47, 59);
 }
 
 .dark-blue-background {
@@ -1037,6 +1062,17 @@ html, body {
 	padding-right: 2%;
 }
 
+.resource-horizontal-rule {
+	/*margin-right: 30px;
+	margin-left: 30px;*/
+	border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+
+
 .standard-button-horizontal-padding {
 	padding-right: 15%;
 	padding-left: 15%;
@@ -1492,6 +1528,20 @@ computationally expensive flexbox*/
 	/*line-height: 1.2em;*/
 }
 
+.resource-font-size {
+	font-size: 1.5rem;
+}
+
+.search-font-size {
+	font-size: 2.0rem;
+	line-height: 1.8rem;
+
+}
+
+
+.tag-font-size {
+	font-size: 1.0rem;
+}
 .paragraph-font-size {
 	font-size: 1rem;
 }
