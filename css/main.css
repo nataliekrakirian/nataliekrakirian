@@ -357,7 +357,7 @@ textarea {
     -o-transition: 0.35s all ease;
     transition: 0.35s all ease;
 	background-color: rgb(67, 73, 89);
-	min-height: 210px;
+	min-height: 250px;
 }
 
 .resource-background:hover {
