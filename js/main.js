@@ -94,8 +94,10 @@ $(document).ready(
       /*console.log("Window top: " + winT)*/
       if($win.scrollTop() < winH){
       $(".navbar-header").removeClass("semi-transparent");
+      $(".icon-bar").removeClass("background-color-dark-gray");
       }else if($win.scrollTop() > winH){
       $(".navbar-header").addClass("semi-transparent");
+      $(".icon-bar").addClass("background-color-dark-gray");
       }
     }//closed check scroll
 
@@ -104,6 +106,7 @@ $(document).ready(
       $(".navbar").disablescroll();
       if($(window).scrollTop() < winH){
         $(".navbar").addClass("semi-transparent");
+        $(".icon-bar").addClass("background-color-dark-gray");
       } else if($(window).scrollTop() > winH){
         $(".navbar-collapse").addClass("semi-transparent");
       }
@@ -114,6 +117,7 @@ $(document).ready(
       if($(window).scrollTop() < winH){
         $(".navbar").removeClass("semi-transparent");
         $(".navbar").disablescroll("undo");
+        $(".icon-bar").removeClass("background-color-dark-gray");
       } else if($(window).scrollTop() > winH) {
         $(".navbar-collapse").removeClass("semi-transparent");
         $(".navbar").disablescroll("undo");
