@@ -93,12 +93,34 @@ textarea {
 	.right-text {
 	text-align: center;
 	}
+
+	#home-header {
+		background: url(../img/hero.jpg) 100% 0 fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+		min-height:100%;
+		width: 100%; 
+		position: relative;
+	}
 }
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 991px){
 	.right-text {
 	text-align: center;
+	}
+
+	#home-header {
+		background: url(../img/hero.jpg) 100% 0 fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+		min-height:100%;
+		width: 100%; 
+		position: relative;
 	}
 }
 
@@ -107,12 +129,32 @@ textarea {
 	.right-text {
 	text-align: right;
 	}
+
+	#home-header {
+		background: url(../img/hero.jpg) 100% 0 fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		min-height:100%;
+		width: 100%; 
+		position: relative;
+	}
 }
 
 /* Large devices (desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 	.right-text {
 	text-align: right;
+	}
+
+	#home-header {
+		background: url(../img/hero.jpg) 100% 0 fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		min-height:100%;
+		width: 100%; 
+		position: relative;
 	}
 }
 
@@ -317,7 +359,7 @@ html, body {
 
 }
 
-#home-header {
+/*#home-header {
 	background: url(../img/hero.jpg) 100% 0 fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -325,7 +367,7 @@ html, body {
 	min-height:100%;
 	width: 100%; 
 	position: relative;
-}
+}*/
 
 
 .background-header-container {
@@ -418,7 +460,7 @@ html, body {
 
 .header-scroll {
 	font-size: 2.0rem;
-	color: #373e4c;
+	color: #FFFFFF;
 	-webkit-transition: 0.1s color linear;
     -moz-transition: 0.1s color linear;
     -o-transition: 0.1s color linear;
@@ -426,7 +468,7 @@ html, body {
 }
 
 .header-scroll:hover {
-	color: #FFFFFF;
+	color: #73E8F4;
 	-webkit-transition: 0.1s color linear;
     -moz-transition: 0.1s color linear;
     -o-transition: 0.1s color linear;
@@ -1780,9 +1822,13 @@ computationally expensive flexbox*/
 }*/
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #373e4c;
+	/*background-color: #373e4c;*/
+	background-color: #FFFFFF;
 }
 
+.background-color-dark-gray {
+	background-color: #373e4c !important;
+}
 /*unhovered #373e4c
 hovered bolded
 clicked #5f6e81*/
