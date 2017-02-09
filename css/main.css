@@ -765,7 +765,8 @@ color:#73E8F4;
 opacity: 0;
 /*text-align:center;*/
 position:relative;
-font-size:17px;
+font-size: 18pt;
+letter-spacing: 2.2px;
 /*background:rgba(0,0,0,0.6);*/
 -webkit-transform:translatey(-50px);
 -ms-transform:translatey(-50px);
