@@ -150,15 +150,32 @@ textarea {
 	text-align: center;
 	}
 
-	#ontherocks-header {
-		background: url(../img/project-headerimgs/ontherocks-headerimg.jpg) 100% 0 fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
+
+
+	#aulani-header {
+	    background: linear-gradient(225deg, #3F7733, #A5B64E);
+	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		min-height:100%;
 		width: 100%; 
 		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+	}
+	
+	#threepercent-header {
+	    background: linear-gradient(225deg, #E52070, #d40056);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
 	}
 	
 
@@ -175,18 +192,7 @@ textarea {
 	    animation: tonir 30s ease infinite;
 	}
 
-#tonir-footer {
-	    background: linear-gradient(225deg, #ffd22d, #e58127);
-	    background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-		width: 100%; 
-		position: relative;
-	    background-size: 400% 400%;
-	    -webkit-animation: tonir 30s ease infinite;
-	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;
-	}
+
 
 	@-webkit-keyframes tonir {
     	0%{background-position:93% 0%}
@@ -235,16 +241,32 @@ textarea {
 	text-align: center;
 	}
 	
-	#ontherocks-header {
-		background: url(../img/project-headerimgs/ontherocks-headerimg.jpg) 100% 0 fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
+	#aulani-header {
+	    background: linear-gradient(225deg, #3F7733, #A5B64E);
+	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		min-height:100%;
 		width: 100%; 
 		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
 	}
+	
+	#threepercent-header {
+	    background: linear-gradient(225deg, #E52070, #d40056);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+	}
+
 	
 	#tonir-header {
 	    background: linear-gradient(225deg, #ffd22d, #e58127);
@@ -303,17 +325,33 @@ textarea {
 	text-align: right;
 	}
 
-	#ontherocks-header {
-		background: url(../img/project-headerimgs/ontherocks-headerimg.jpg) 100% 0 fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
+	#aulani-header {
+	    background: linear-gradient(225deg, #3F7733, #A5B64E);
+	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		min-height:100%;
 		width: 100%; 
 		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
 	}
+
 	
+	#threepercent-header {
+	    background: linear-gradient(225deg, #E52070, #d40056);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+	}
+
 	
 	#tonir-header {
 	    background: linear-gradient(225deg, #ffd22d, #e58127);
@@ -373,19 +411,35 @@ textarea {
 	text-align: right;
 	}
 
-	#ontherocks-header {
-		background: url(../img/project-headerimgs/ontherocks-headerimg.jpg) 100% 0 fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
+	#aulani-header {
+	    background: linear-gradient(225deg, #3F7733, #A5B64E);
+	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		min-height:100%;
 		width: 100%; 
 		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
 	}
 	
+	#threepercent-header {
+	    background: linear-gradient(225deg, #E52070, #d40056);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+	}
+
+
 	
-	    #tonir-header {
+	 #tonir-header {
 	    background: linear-gradient(225deg, #ffd22d, #e58127);
 	    background-size: 400% 400%;
 	    background-repeat: no-repeat;
