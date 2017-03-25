@@ -191,7 +191,7 @@ if it's not present, don't show loader */
 	
 	
 	#fatbabble-overview-header {
-		background-color: #676972;
+	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -295,7 +295,7 @@ if it's not present, don't show loader */
 	}
 	
 	#fatbabble-overview-header {
-		background-color: #676972;
+	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -394,7 +394,7 @@ if it's not present, don't show loader */
 	}
 
 	#fatbabble-overview-header {
-		background-color: #676972;
+	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -494,7 +494,7 @@ if it's not present, don't show loader */
 	}
 	
 	#fatbabble-overview-header {
-		background-color: #676972;
+	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -1341,6 +1341,11 @@ transition-delay:.2s;*/
 	
 }
 
+.copy-block-vertical-padding {
+	padding-bottom: 9vh;
+	padding-top: 9vh;
+}
+
 .no-vertical-padding {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -1455,6 +1460,12 @@ transition-delay:.2s;*/
 .form-margin-top {
 	margin-top: 4%;
 }
+
+.copy-block-vertical-margin {
+	margin-bottom: 9vh;
+	margin-top: 9vh;
+}
+
 
 .share-caption-margin-top {
 	margin-top: 10px;
