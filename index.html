@@ -49,6 +49,8 @@
         <!--end thumbnail experimentation-->
     </head>
     <body>
+    	<div class="se-pre-con"></div>
+
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="nav-container">
                 <div class="navbar-header">
@@ -488,6 +490,8 @@
         <script type = "text/javascript" src = "js/jquery.matchHeight.js" ></script>
         <script src="js/classie.js"></script>
         <script src="js/dialogFx.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
         <!--<script type = "text/javascript" src = "js/jquery.parallaxmouse.min.js" ></script>-->
 
        
@@ -504,7 +508,13 @@
 			})();
 		</script>
        
-       
+
+	<script>
+		$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+		});
+	</script>
        
        
         <script type="text/javascript">

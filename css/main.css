@@ -86,6 +86,30 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}
+
+
+
+
+
+
+
+
 /*BOOTSTRAP DEFAULT MEDIA QUERY SIZES*/
 
 
@@ -163,6 +187,22 @@ textarea {
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
 	    animation: tonir 30s ease infinite;	
+	}
+	
+	
+	#fatbabble-overview-header {
+		background-color: #676972;
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+		
+		
 	}
 	
 	#threepercent-header {
@@ -254,6 +294,21 @@ textarea {
 	    animation: tonir 30s ease infinite;	
 	}
 	
+	#fatbabble-overview-header {
+		background-color: #676972;
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+		
+		
+	}
+	
 	#threepercent-header {
 	    background: linear-gradient(225deg, #E52070, #d40056);
 	    background-repeat: no-repeat;
@@ -338,6 +393,20 @@ textarea {
 	    animation: tonir 30s ease infinite;	
 	}
 
+	#fatbabble-overview-header {
+		background-color: #676972;
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+		
+		
+	}
 	
 	#threepercent-header {
 	    background: linear-gradient(225deg, #E52070, #d40056);
@@ -422,6 +491,21 @@ textarea {
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
 	    animation: tonir 30s ease infinite;	
+	}
+	
+	#fatbabble-overview-header {
+		background-color: #676972;
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+		
+		
 	}
 	
 	#threepercent-header {
@@ -2116,7 +2200,7 @@ p.contact-button a:hover {
     padding-left: 5%;
     padding-right: 5%;
     /*padding-top: 20%;*/
-	background-color: #373e4c;
+	background-color: #373e4d;
 	visibility: hidden;
 	opacity: 0;
     -webkit-transition: 0.35s all ease;
@@ -2782,15 +2866,15 @@ body,
 }
 
 .item:nth-child(1) {
-  background: darkred;
+  background: none;
 }
 
 .item:nth-child(2) {
-  background: red;
+  background: none;
 }
 
 .item:nth-child(3) {
-  background: orange;
+  background: none;
 }
 
 
