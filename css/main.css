@@ -1342,8 +1342,8 @@ transition-delay:.2s;*/
 }
 
 .copy-block-vertical-padding {
-	padding-bottom: 9vh;
-	padding-top: 9vh;
+	padding-bottom: 10vh;
+	padding-top: 10vh;
 }
 
 .no-vertical-padding {
@@ -1401,13 +1401,7 @@ transition-delay:.2s;*/
 	margin-left: -15px;
 }
 
-.eighth-page-margin {
-	margin-top: 12.5vh;
-}
 
-.sixteenth-page-margin {
-	margin-top: 6.25vh;
-}
 
 .project-copy-margin {
 	margin-top: 6.25vh
@@ -1429,6 +1423,14 @@ transition-delay:.2s;*/
 .standard-vertical-margin {
 	margin-top: 5vh;
 	margin-bottom: 5vh;
+}
+
+.eighth-page-margin {
+	margin-top: 12.5vh;
+}
+
+.sixteenth-page-margin {
+	margin-top: 6.25vh;
 }
 
 .arrow-vertical-margin {
