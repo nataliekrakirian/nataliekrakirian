@@ -205,6 +205,21 @@ if it's not present, don't show loader */
 		
 	}
 	
+	
+	#splash-header {
+	    background: linear-gradient(225deg, #A8D599, #7CC89A);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+	}
+	
+	
 	#threepercent-header {
 	    background: linear-gradient(225deg, #E52070, #d40056);
 	    background-repeat: no-repeat;
@@ -309,6 +324,19 @@ if it's not present, don't show loader */
 		
 	}
 	
+	#splash-header {
+	    background: linear-gradient(225deg, #A8D599, #7CC89A);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
+	}
+	
 	#threepercent-header {
 	    background: linear-gradient(225deg, #E52070, #d40056);
 	    background-repeat: no-repeat;
@@ -406,6 +434,19 @@ if it's not present, don't show loader */
 	    animation: tonir 30s ease infinite;	
 		
 		
+	}
+	
+	#splash-header {
+	    background: linear-gradient(225deg, #A8D599, #7CC89A);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
 	}
 	
 	#threepercent-header {
@@ -506,6 +547,19 @@ if it's not present, don't show loader */
 	    animation: tonir 30s ease infinite;	
 		
 		
+	}
+	
+	#splash-header {
+	    background: linear-gradient(225deg, #A8D599, #7CC89A);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%; 
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;	
 	}
 	
 	#threepercent-header {
