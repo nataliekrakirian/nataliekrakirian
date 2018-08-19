@@ -89,7 +89,7 @@ textarea {
 
 
 /* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
+/* This only works with JavaScript,
 if it's not present, don't show loader */
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
@@ -165,7 +165,7 @@ if it's not present, don't show loader */
 
 
 .img-header-overflow {
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 /* Tiny devices (phones, 767px and below) */
@@ -181,65 +181,7 @@ if it's not present, don't show loader */
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
-		position: relative;
-	    background-size: 400% 400%;
-	    -webkit-animation: tonir 30s ease infinite;
-	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
-	}
-	
-	
-	#fatbabble-overview-header {
-	    background: linear-gradient(225deg, #17EAA9, #c4f164);
-	    background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-		width: 100%; 
-		position: relative;
-	    background-size: 400% 400%;
-	    -webkit-animation: tonir 30s ease infinite;
-	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
-		
-		
-	}
-	
-	
-	#splash-header {
-	    background: linear-gradient(225deg, #A8D599, #7CC89A);
-	    background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-		width: 100%; 
-		position: relative;
-	    background-size: 400% 400%;
-	    -webkit-animation: tonir 30s ease infinite;
-	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
-	}
-	
-	
-	#threepercent-header {
-	    background: linear-gradient(225deg, #E52070, #d40056);
-	    background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-		width: 100%; 
-		position: relative;
-	    background-size: 400% 400%;
-	    -webkit-animation: tonir 30s ease infinite;
-	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
-	}
-	
-
-    #tonir-header {
-	    background: linear-gradient(225deg, #ffd22d, #e58127);
-	    background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
@@ -248,29 +190,151 @@ if it's not present, don't show loader */
 	}
 
 
+	#fatbabble-overview-header {
+	    background: linear-gradient(225deg, #17EAA9, #c4f164);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+
+
+	}
+
+
+	#splash-header {
+	    background: linear-gradient(225deg, #A8D599, #7CC89A);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
+
+	#threepercent-header {
+	    background: linear-gradient(225deg, #E52070, #d40056);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
+
+    #tonir-header {
+	    background: linear-gradient(225deg, #ffd22d, #e58127);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
+
+  #fsd-header {
+	    background: linear-gradient(225deg, #ff7915, #ffa14d);
+	    background-size: 400% 400%;
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
+  #dis-halloweentime-header {
+      background: linear-gradient(225deg, #77ff96, #732364);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #dis-msep-header {
+      background: linear-gradient(225deg, #f7d83f, #f4c040);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #abd-japan-header {
+      background: linear-gradient(225deg, #90382e, #a02e25);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+#logos-header {
+    background: linear-gradient(225deg, #73E8F4, #4fcfdd);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  position: relative;
+    -webkit-animation: tonir 30s ease infinite;
+    -moz-animation: tonir 30s ease infinite;
+    animation: tonir 30s ease infinite;
+}
 
 	@-webkit-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     }
-    
-    
+
+
     @-moz-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     	}
-    	
-    	
-	@keyframes tonir { 
+
+
+	@keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     }
-	   
-	    
-    
+
+
+
 
 	#home-header {
 		/*background: url(../img/hero.jpg) 100% 0 fixed;*/
@@ -279,11 +343,11 @@ if it's not present, don't show loader */
 		background-attachment: scroll;
 		background-position: center;
 		min-height:100%;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	}
-	
-	
+
+
 }
 
 
@@ -295,69 +359,69 @@ if it's not present, don't show loader */
 	.right-text {
 	text-align: center;
 	}
-	
+
 	#aulani-header {
 	    background: linear-gradient(225deg, #3F7733, #A5B64E);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
-	
+
 	#fatbabble-overview-header {
 	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
-		
-		
+	    animation: tonir 30s ease infinite;
+
+
 	}
-	
+
 	#splash-header {
 	    background: linear-gradient(225deg, #A8D599, #7CC89A);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
-	
+
 	#threepercent-header {
 	    background: linear-gradient(225deg, #E52070, #d40056);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
 
-	
+
 	#tonir-header {
 	    background: linear-gradient(225deg, #ffd22d, #e58127);
 	    background-size: 400% 400%;
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
@@ -365,29 +429,95 @@ if it's not present, don't show loader */
 	}
 
 
+  #fsd-header {
+	    background: linear-gradient(225deg, #ff7915, #ffa14d);
+	    background-size: 400% 400%;
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
+  #dis-halloweentime-header {
+      background: linear-gradient(225deg, #77ff96, #732364);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #dis-msep-header {
+      background: linear-gradient(225deg, #f7d83f, #f4c040);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #abd-japan-header {
+      background: linear-gradient(225deg, #90382e, #a02e25);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #logos-header {
+      background: linear-gradient(225deg, #73E8F4, #4fcfdd);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+
 	@-webkit-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     }
-    
-    
+
+
     @-moz-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     	}
-    	
-    	
-	@keyframes tonir { 
+
+
+	@keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     }
-	 
-	
-	
-	
+
+
+
+
 	#home-header {
 		/*background: url(../img/hero.jpg) 100% 0 fixed;*/
 		background-repeat: no-repeat;
@@ -395,11 +525,11 @@ if it's not present, don't show loader */
 		background-attachment: scroll;
 		background-position: center;
 		min-height:100%;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	}
-	
-	
+
+
 }
 
 /* Medium devices (small desktops, 768px and up) */
@@ -413,12 +543,12 @@ if it's not present, don't show loader */
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
 
 	#fatbabble-overview-header {
@@ -426,50 +556,50 @@ if it's not present, don't show loader */
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
-		
-		
+	    animation: tonir 30s ease infinite;
+
+
 	}
-	
+
 	#splash-header {
 	    background: linear-gradient(225deg, #A8D599, #7CC89A);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
-	
+
 	#threepercent-header {
 	    background: linear-gradient(225deg, #E52070, #d40056);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
 
-	
+
 	#tonir-header {
 	    background: linear-gradient(225deg, #ffd22d, #e58127);
 	    background-size: 400% 400%;
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
@@ -477,27 +607,93 @@ if it's not present, don't show loader */
 	}
 
 
+  #fsd-header {
+	    background: linear-gradient(225deg, #ff7915, #ff8c39);
+	    background-size: 400% 400%;
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
+  #dis-halloweentime-header {
+      background: linear-gradient(225deg, #77ff96, #732364);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #dis-msep-header {
+      background: linear-gradient(225deg, #f7d83f, #f4c040);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #abd-japan-header {
+      background: linear-gradient(225deg, #90382e, #a02e25);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #logos-header {
+      background: linear-gradient(225deg, #73E8F4, #4fcfdd);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+
 	@-webkit-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     }
-    
-    
+
+
     @-moz-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     	}
-    	
-    	
-	@keyframes tonir { 
+
+
+	@keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     }
-	 
-	 
+
+
 
 	#home-header {
 		/*background: url(../img/hero.jpg) 100% 0 fixed;*/
@@ -505,10 +701,10 @@ if it's not present, don't show loader */
 		background-size: cover;
 		background-position: center;
 		min-height:100%;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	}
-	
+
 
 }
 
@@ -526,64 +722,64 @@ if it's not present, don't show loader */
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
-	
+
 	#fatbabble-overview-header {
 	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
-		
-		
+	    animation: tonir 30s ease infinite;
+
+
 	}
-	
+
 	#splash-header {
 	    background: linear-gradient(225deg, #A8D599, #7CC89A);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
-	
+
 	#threepercent-header {
 	    background: linear-gradient(225deg, #E52070, #d40056);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    background-size: 400% 400%;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
-	    animation: tonir 30s ease infinite;	
+	    animation: tonir 30s ease infinite;
 	}
 
 
-	
+
 	 #tonir-header {
 	    background: linear-gradient(225deg, #ffd22d, #e58127);
 	    background-size: 400% 400%;
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	    -webkit-animation: tonir 30s ease infinite;
 	    -moz-animation: tonir 30s ease infinite;
@@ -591,38 +787,104 @@ if it's not present, don't show loader */
 	}
 
 
+  #fsd-header {
+	    background: linear-gradient(225deg, #ff7915, #ffa14d);
+	    background-size: 400% 400%;
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
+  #dis-halloweentime-header {
+      background: linear-gradient(225deg, #77ff96, #732364);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #dis-msep-header {
+      background: linear-gradient(225deg, #f7d83f, #f4c040);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #abd-japan-header {
+      background: linear-gradient(225deg, #90382e, #a02e25);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  #logos-header {
+      background: linear-gradient(225deg, #73E8F4, #4fcfdd);
+      background-size: 400% 400%;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    position: relative;
+      -webkit-animation: tonir 30s ease infinite;
+      -moz-animation: tonir 30s ease infinite;
+      animation: tonir 30s ease infinite;
+  }
+
+  
 	@-webkit-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     }
-    
-    
+
+
     @-moz-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     	}
-    	
-    	
-	@keyframes tonir { 
+
+
+	@keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
     	100%{background-position:93% 0%}
     }
-	 
-	 
-	
+
+
+
 	#home-header {
 		/*background: url(../img/hero.jpg) 100% 0 fixed;*/
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
 		min-height:100%;
-		width: 100%; 
+		width: 100%;
 		position: relative;
 	}
-	
+
 
 }
 
@@ -730,9 +992,9 @@ if it's not present, don't show loader */
 	background: url(../img/screenshot-carousel/img/tabletop.jpg) 100% 0 fixed;
 	background-repeat: repeat-y;
 	background-position: center;
-	height: auto;   
-	width: 100%; 
-	position: relative; 
+	height: auto;
+	width: 100%;
+	position: relative;
 
 }
 
@@ -763,8 +1025,8 @@ html, body {
 /*a:active {
     outline: none;
 }*/
-/*::-webkit-scrollbar { 
-    display: none; 
+/*::-webkit-scrollbar {
+    display: none;
 }*/
 #work-header {
 	/*background: url(../img/love/love-header.jpg) 100% 0 fixed;
@@ -776,7 +1038,7 @@ html, body {
 	background-size: cover;
 	background-position: center;
 	min-height:100%;
-	width: 100%; 
+	width: 100%;
 	position: relative;
 }
 #love-header {
@@ -785,7 +1047,7 @@ html, body {
 	background-size: cover;
 	background-position: center;
 	min-height:100%;
-	width: 100%; 
+	width: 100%;
 	position: relative;
 }
 
@@ -795,7 +1057,7 @@ html, body {
 	background-size: cover;
 	background-position: center;
 	min-height:100%;
-	width: 100%; 
+	width: 100%;
 	position: relative;
 
 }
@@ -806,7 +1068,7 @@ html, body {
 	background-size: cover;
 	background-position: center;
 	min-height:100%;
-	width: 100%; 
+	width: 100%;
 	position: relative;
 
 }
@@ -817,7 +1079,7 @@ html, body {
 	background-size: cover;
 	background-position: center;
 	min-height:100%;
-	width: 100%; 
+	width: 100%;
 	position: relative;
 
 }
@@ -828,7 +1090,7 @@ html, body {
 	background-size: cover;
 	background-position: center;
 	min-height:100%;
-	width: 100%; 
+	width: 100%;
 	position: relative;
 
 }
@@ -839,7 +1101,7 @@ html, body {
 	background-size: cover;
 	background-position: center;
 	min-height:100%;
-	width: 100%; 
+	width: 100%;
 	position: relative;
 }*/
 
@@ -903,7 +1165,7 @@ html, body {
 }*/
 
 .black {
-	color: #000000; 
+	color: #000000;
 }
 
 .white {
@@ -952,7 +1214,7 @@ html, body {
 	position:absolute;
 	overflow: hidden;
 
-	
+
 }
 
 .circle {
@@ -977,7 +1239,7 @@ html, body {
 	-webkit-transition: 0.1s color linear;
     -moz-transition: 0.1s color linear;
     -o-transition: 0.1s color linear;
-    transition: 0.1s color linear;  
+    transition: 0.1s color linear;
 }
 
 
@@ -1100,7 +1362,7 @@ html, body {
     -o-transition: 0.35s all ease;
     transition: 0.35s all ease;
 
-} 
+}
 .img-caption-background {
 	margin-left: 3.5%;
 	margin-top: 1.5%;
@@ -1157,12 +1419,12 @@ html, body {
     display:block;
     position:relative;
 }
- 
+
 .img-inset-box-shadow img
 {
     display:block;
 }
- 
+
 .img-inset-box-shadow::before
 {
     display:block;
@@ -1392,7 +1654,7 @@ transition-delay:.2s;*/
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-top:5vh;
-	
+
 }
 
 .copy-block-vertical-padding {
@@ -1451,7 +1713,7 @@ transition-delay:.2s;*/
 }
 
 .headerimg-negative-margin {
-	
+
 	margin-left: -15px;
 }
 
@@ -1579,8 +1841,8 @@ transition-delay:.2s;*/
 
 @media (max-width: 978px){
 	.no
-	
-	
+
+
 }
 
 
@@ -1603,7 +1865,7 @@ transition-delay:.2s;*/
 	.project-copy-margin {
 		margin-top: 3vh
 	}
-	
+
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1623,7 +1885,7 @@ transition-delay:.2s;*/
 	.sm-button-margin-bottom {
 		margin-bottom: 30px;
 	}
-	
+
 	.project-copy-margin {
 		margin-top: 3vh
 	}
@@ -1775,7 +2037,7 @@ transition-delay:.2s;*/
 }
 
 .half-page-max {
-	
+
 	max-height: 50vh;
 }
 
@@ -1798,7 +2060,7 @@ transition-delay:.2s;*/
 /*END SIZE STYLING */
 
 /* BEGIN NAV STYLING; */
-.navbar-collapse{    
+.navbar-collapse{
 	border-top: none;
 	box-shadow: none;
 	-webkit-box-shadow: none;
@@ -1835,7 +2097,7 @@ transition-delay:.2s;*/
 
 /*.navbar-default .navbar-toggle.collapsed{
 
-    background:#fff;    
+    background:#fff;
 }*/
 
 
@@ -1910,11 +2172,11 @@ computationally expensive flexbox*/
     -moz-transition: 0.35s all ease;
     -o-transition: 0.35s all ease;
     transition: 0.35s all ease;
-    
+
 }
 
 .navbar-collapse {
-	background-color: rgba(255, 255, 255, 0.0);    
+	background-color: rgba(255, 255, 255, 0.0);
 }
 /*PROBLEMATIC CLASS */
 /*
@@ -1924,7 +2186,7 @@ computationally expensive flexbox*/
     -moz-transition: 0.35s all ease;
     -o-transition: 0.35s all ease;
     transition: 0.35s all ease;
-    
+
 }
 */
 
@@ -1936,7 +2198,7 @@ computationally expensive flexbox*/
     transition: 0.35s all ease;
 }
 .semi-transparent {
-	background-color: rgba(255, 255, 255, 0.97);	
+	background-color: rgba(255, 255, 255, 0.97);
 }
 
 /* END CUSTOM CONTAINERS */
@@ -2051,11 +2313,11 @@ p.contact-button a:hover {
     margin-left:auto;
     margin-right:auto;
   }
-  
+
   .home-btn {
 	  display:block;
   }
-  
+
   .btn:nth-of-type(even) {
     margin-right: 0;
   }
@@ -2152,13 +2414,13 @@ p.contact-button a:hover {
 	animation-iteration-count: infinite;
 	animation-duration: 5s;
 	animation-direction: alternate;
-	
+
 	-o-animation-name: imgSlideshowFadeInFadeOut;
 	-o-animation-timing-function: ease-in-out;
 	-o-animation-iteration-count: infinite;
 	-o-animation-duration: 5s;
 	-o-animation-direction: alternate;
-	
+
 	-webkit-animation-name: imgSlideshowFadeInFadeOut;
 	-webkit-animation-timing-function: ease-in-out;
 	-webkit-animation-iteration-count: infinite;
@@ -2227,7 +2489,7 @@ p.contact-button a:hover {
     -o-transition: 0.35s all ease;
     transition: 0.35s all ease;
 }
-.form-hovered-caption {    
+.form-hovered-caption {
 	height: 100%;
     width: 100%;
     padding-left: 5%;
@@ -2261,7 +2523,7 @@ p.contact-button a:hover {
     padding-left: 15px;
     padding-right: 15px;
 }
-.row-hovered-caption {    
+.row-hovered-caption {
 	height: 100%;
     width: 100%;
     padding-left: 5%;
@@ -2288,7 +2550,7 @@ p.contact-button a:hover {
 .text-unhovered-wrapper {
 	width: 100%;
 	min-height: 450px;
-	
+
 }
 
 .text-hovered-wrapper {
@@ -2337,12 +2599,12 @@ p.contact-button a:hover {
 
 /* BEGIN TYPE STYLING */
 
-/*@font-face { 
+/*@font-face {
     font-family: Roboto-Thin;
     src: url('../fonts/Roboto-Thin.ttf');
 }
 
-@font-face { 
+@font-face {
     font-family: Roboto-Light;
     src: url('../fonts/Roboto-Light.ttf');
 }
@@ -2401,6 +2663,12 @@ p.contact-button a:hover {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
 	font-weight: 400;
+}
+
+.montserrat-medium {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
 }
 
 .montserrat-bold {
@@ -2563,6 +2831,10 @@ p.contact-button a:hover {
 	letter-spacing: 2px;
 }
 
+.tracking-1px {
+	letter-spacing: 1px;
+}
+
 .tracking-0px {
 	letter-spacing: 0px;
 }
@@ -2597,7 +2869,7 @@ p.contact-button a:hover {
 
 	font-family: "Dosis";
 	font-size:  1.0rem;
-	
+
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-weight: 800;
@@ -2636,16 +2908,16 @@ p.contact-button a:hover {
 	/*font-family: "Dosis";
 	font-size:  2.0rem;
 	line-height: 1.3rem;*/
-	
+
 	letter-spacing: 2px;
 	/*font-weight: 500;
 	font-style: normal;*/
-	
+
 	-webkit-transition: 0.35s all ease;
     -moz-transition: 0.35s all ease;
     -o-transition: 0.35s all ease;
     transition: 0.35s all ease;
-   
+
 }
 
 .nav-item:hover {
@@ -2661,7 +2933,7 @@ p.contact-button a:hover {
 	letter-spacing: 5px;
 	font-weight: 800;
 	font-style: normal;*/
-	
+
 }
 
 
@@ -2690,7 +2962,7 @@ p.contact-button a:hover {
 
 .background-color-white {
 	background-color: #373e4c !important;
-	
+
 }
 /*unhovered #373e4c
 hovered bolded
@@ -2710,7 +2982,7 @@ clicked #5f6e81*/
 /* BEGIN LIST STYLING */
 
 .no-bullets {
-    list-style-type: none;    
+    list-style-type: none;
 }
 
 /* END LIST STYLING */
@@ -2737,7 +3009,7 @@ clicked #5f6e81*/
 
 a:link {
     text-decoration: none;
-    
+
 }
 
 a:visited {
@@ -2762,13 +3034,13 @@ a:hover, a:active, a:focus, a:link, a:visited {
   outline: 0 !important;
   outline-style:none;
 }
-button, object, embed { 
+button, object, embed {
   outline: 0;
 }
 
 /* All Input elements */
-input::-moz-focus-inner { 
- outline: 0; 
+input::-moz-focus-inner {
+ outline: 0;
 }
 
 /* Or more specifically*/
@@ -2785,7 +3057,7 @@ input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner{
 	color: #F15A24;
 }
 
-.see-hover-fade {	
+.see-hover-fade {
 	-webkit-transition: 0.1s background-color linear, 0.1s color linear;
     -moz-transition: 0.1s background-color linear, 0.1s color linear;
     -o-transition: 0.1s background-color linear, 0.1s color linear;
@@ -2794,7 +3066,7 @@ input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner{
     color: #FFFFFF;
 }
 
-.see-hover-fade:hover {	
+.see-hover-fade:hover {
 	-webkit-transition: 0.1s background-color linear, 0.1s color linear;
     -moz-transition: 0.1s background-color linear, 0.1s color linear;
     -o-transition: 0.1s background-color linear, 0.1s color linear;
@@ -2930,10 +3202,10 @@ input[type=text], input[type=email] {
 
 
 
-html, 
-body, 
-.carousel, 
-.carousel-inner, 
+html,
+body,
+.carousel,
+.carousel-inner,
 .carousel-inner .item {
   height: 100%;
 }
