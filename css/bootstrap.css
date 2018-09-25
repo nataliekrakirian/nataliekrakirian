@@ -1084,7 +1084,7 @@ html {
 body {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.42857143;
+  line-height: 1.5;
   color: #333;
   background-color: #fff;
 }
@@ -1289,6 +1289,7 @@ h6,
 }
 p {
   margin: 0 0 0px;
+  letter-spacing: .5px;
 }
 .lead {
   margin-bottom: 20px;

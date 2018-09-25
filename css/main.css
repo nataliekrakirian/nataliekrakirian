@@ -176,8 +176,22 @@ if it's not present, don't show loader */
 
 
 
+
 	#aulani-header {
 	    background: linear-gradient(225deg, #3F7733, #A5B64E);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
+  #aulani-refresh-header {
+	    background: linear-gradient(225deg, #53C4C8, #00A0Af);
 	    background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
@@ -262,7 +276,7 @@ if it's not present, don't show loader */
 	}
 
   #dis-halloweentime-header {
-      background: linear-gradient(225deg, #77ff96, #732364);
+      background: linear-gradient(225deg, #7671b8, #77ff96);
       background-size: 400% 400%;
       background-repeat: no-repeat;
     background-attachment: fixed;
@@ -373,6 +387,19 @@ if it's not present, don't show loader */
 	    animation: tonir 30s ease infinite;
 	}
 
+  #aulani-refresh-header {
+	    background: linear-gradient(225deg, #53C4C8, #00A0Af);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
 	#fatbabble-overview-header {
 	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
@@ -443,7 +470,7 @@ if it's not present, don't show loader */
 	}
 
   #dis-halloweentime-header {
-      background: linear-gradient(225deg, #77ff96, #732364);
+      background: linear-gradient(225deg, #7671b8, #77ff96);
       background-size: 400% 400%;
       background-repeat: no-repeat;
     background-attachment: fixed;
@@ -551,6 +578,19 @@ if it's not present, don't show loader */
 	    animation: tonir 30s ease infinite;
 	}
 
+  #aulani-refresh-header {
+	    background: linear-gradient(225deg, #53C4C8, #00A0Af);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
 	#fatbabble-overview-header {
 	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
@@ -621,7 +661,7 @@ if it's not present, don't show loader */
 	}
 
   #dis-halloweentime-header {
-      background: linear-gradient(225deg, #77ff96, #732364);
+      background: linear-gradient(225deg, #7671b8, #77ff96);
       background-size: 400% 400%;
       background-repeat: no-repeat;
     background-attachment: fixed;
@@ -730,6 +770,19 @@ if it's not present, don't show loader */
 	    animation: tonir 30s ease infinite;
 	}
 
+  #aulani-refresh-header {
+	    background: linear-gradient(225deg, #53C4C8, #00A0Af);
+	    background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		width: 100%;
+		position: relative;
+	    background-size: 400% 400%;
+	    -webkit-animation: tonir 30s ease infinite;
+	    -moz-animation: tonir 30s ease infinite;
+	    animation: tonir 30s ease infinite;
+	}
+
 	#fatbabble-overview-header {
 	    background: linear-gradient(225deg, #17EAA9, #c4f164);
 	    background-repeat: no-repeat;
@@ -801,7 +854,7 @@ if it's not present, don't show loader */
 	}
 
   #dis-halloweentime-header {
-      background: linear-gradient(225deg, #77ff96, #732364);
+      background: linear-gradient(225deg, #7671b8, #77ff96);
       background-size: 400% 400%;
       background-repeat: no-repeat;
     background-attachment: fixed;
@@ -852,7 +905,7 @@ if it's not present, don't show loader */
       animation: tonir 30s ease infinite;
   }
 
-  
+
 	@-webkit-keyframes tonir {
     	0%{background-position:93% 0%}
     	50%{background-position:0% 100%}
@@ -1173,7 +1226,7 @@ html, body {
 }
 
 .dark-gray {
-	color: #3D3D3D;
+	color: #333333;
 }
 
 .light-gray {
@@ -1182,6 +1235,10 @@ html, body {
 
 .light-blue {
 	color: #73E8F4;
+}
+
+.shell {
+  color: #f4f3e5;
 }
 
 /* END COLOR STYLING */
@@ -1490,7 +1547,89 @@ html, body {
 }
 
 
+.snip1504 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  background-color: #fff;
+}
 
+.snip1504 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1504 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1504 figcaption {
+  position: absolute;
+  top: 8.333333%;
+  left: 8.33333333%;
+  right: 0;
+  z-index: 1;
+  align-items: left;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+
+.snip1504 h3,
+.snip1504 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 2.2px;
+}
+
+.snip1504 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.snip1504 h5 {
+  font-weight: normal;
+  font-style: ;
+  color: #888;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.snip1504 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1504:hover > img,
+.snip1504.hover > img {
+  opacity: 0.1;
+}
+
+.snip1504:hover h3,
+.snip1504.hover h3,
+.snip1504:hover h5,
+.snip1504.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
 
 
 /*OVERLAY CODE*/
@@ -1692,6 +1831,11 @@ transition-delay:.2s;*/
 
 
 /* BEGIN MARGIN STYLING */
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
 .half-page-margin {
 	margin-top: 50vh;
@@ -2373,10 +2517,24 @@ p.contact-button a:hover {
 
 
 
-/* BEGIN NDA PROJECT MODAL*/
+/* BEGIN iframe full width classes*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 
-/* END NDA PROJECT MODAL*/
+/* END iframe full width classes*/
 
 
 
@@ -2823,6 +2981,11 @@ p.contact-button a:hover {
 .tracking-5px {
 	letter-spacing: 5px;
 }
+
+.tracking-4px {
+  letter-spacing: 4px;
+}
+
 .tracking-3px {
 	letter-spacing: 3px;
 }
@@ -2833,6 +2996,10 @@ p.contact-button a:hover {
 
 .tracking-1px {
 	letter-spacing: 1px;
+}
+
+.tracking-halfpx {
+  letter-spacing: .5px;
 }
 
 .tracking-0px {
