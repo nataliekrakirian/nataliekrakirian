@@ -1560,6 +1560,12 @@ html, body {
   background-color: #fff;
 }
 
+.japanpin {
+  max-width:100%;
+  margin:0;
+}
+
+
 .snip1504 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -2522,15 +2528,18 @@ p.contact-button a:hover {
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
+	padding-top: 0px;
 	height: 0;
+  overflow: hidden;
 }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+
 }
 
 
